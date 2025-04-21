@@ -5,6 +5,7 @@
 # The program uses an abstract class and classes that extends that abstract class with an abstract double called getArea().
 # Each class has their own methods and their own getArea() returns according to the shape default.
 # An array list is used to enter all the options at once in order for the user to know what shapes is the user allowed to enter to prevent invalid inputs.
+# Some challenges that I faced are basically handling errors and make the project functionalities work correctly
 
 public abstract class Shape {
     public abstract double getArea();
